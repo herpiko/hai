@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "hai.h"
+//#include "hai.h"
 
 void main()
 {
-    hai();
+    //hai();
+    printf("Hai!");
 }
