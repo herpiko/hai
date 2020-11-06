@@ -22,3 +22,9 @@ clean:
 	rm -rf libhai.so
 	rm -rf hai-dbg
 	rm -rf libhai-dbg.so
+
+dh_make:
+	dh_make --createorig
+
+dpkg-buildpackage:
+	dpkg-buildpackage -us -uc
