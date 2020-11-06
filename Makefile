@@ -10,6 +10,12 @@ install:
 	sudo ln -sf /usr/lib/libhai.so /usr/lib/libhai.so.0
 	sudo ldconfig
 
+uninstall:
+	sudo rm -f /usr/bin/hai
+	sudo rm -f /usr/lib/libhai.so
+	sudo rm -f /usr/lib/libhai.so.0
+	sudo ldconfig
+
 clean:
 	rm -rf a.out
 	rm -rf hai
